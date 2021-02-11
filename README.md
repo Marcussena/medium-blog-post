@@ -23,7 +23,7 @@ As motivation to write my post I used a dataset about AirBNB of Seattle availabl
    
  # File description
    a. archive.zip - zipped folder containing three datasets used in this work (calendar.csv, listings.csv, reviews.csv)
-   b. seattleairbnb.py - jupyter notebook explaining the code used to achieve the result and visualizations showed in the post
+   b. seattledataset.ipynb - jupyter notebook explaining the code used to achieve the result and visualizations showed in the post
    
  # Reference
    1. Tips and reference for the general structure of the post: https://medium.com/@AbdulazizKTA/write-a-data-science-blog-post-f8c5e1ece761
