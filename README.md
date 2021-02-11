@@ -12,4 +12,13 @@ As motivation to write my post I used a dataset about AirBNB of Seattle availabl
  #### Q3 — What locations have the best ratings?
  #### Q4 — What is the relationship between prices and review scores?
  #### Q5 — What season is more expensive?
-
+ 
+ # Environment
+ I used Python 3 in a Jupyter notebook to coding, modeling, cleaning and creating plots that lead me to the conclusions of my post. The libraries that I used were:
+ 
+   1. Pandas
+   2. Numpy
+   3. Matplotlib
+   4. Statsmodels
+   
+ 
