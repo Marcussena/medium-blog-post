@@ -25,10 +25,24 @@ As motivation to write my post I used a dataset about AirBNB of Seattle availabl
    a. archive.zip - zipped folder containing three datasets used in this work (calendar.csv, listings.csv, reviews.csv)
    b. seattledataset.ipynb - jupyter notebook explaining the code used to achieve the result and visualizations showed in the post
    
+ # Methodology
+ ## CRISP-DM process
+In order to assess the questions raised, I will be using the Cross Industry Standard Process for Data Mining (CRISP-DM). This process will guide me through the phases needed to find useful answers and involves the following 6 steps:
+
+- Business Understanding
+- Data Understanding
+- Data Preparation
+- Modeling
+- Evaluation
+- Deployment
+
+As follows, it will be presented more details about each step and how it will be used along the process of answering the questions.
+   
  # Reference
    1. Tips and reference for the general structure of the post: https://medium.com/@AbdulazizKTA/write-a-data-science-blog-post-f8c5e1ece761
    2. Insight for how to clean and model the data to answer my questions: https://www.kaggle.com/ikhlaszineddine2103/airbnb-project
    3. Writing tips and techniques: https://towardsdatascience.com/how-i-write-a-data-science-blog-62e4108fe478
    4. Source and details about the datasets used on the analysis: https://www.kaggle.com/airbnb/seattle
+   5. Holidays, Celebrations and travel guide of Seattle, WA: https://santorinidave.com/best-time-to-visit-seattle
    
  
