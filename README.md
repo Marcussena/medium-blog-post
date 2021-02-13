@@ -37,6 +37,39 @@ In order to assess the questions raised, I will be using the Cross Industry Stan
 - Deployment
 
 As follows, it will be presented more details about each step and how it will be used along the process of answering the questions.
+
+## Business Understanding
+Acording to Business Model Toolbox website:
+
+*Airbnb is a community-based, two-sided online platform that facilitates the process of booking private living spaces for travelers. On the one side it enables owners to list their space and earn rental money. On the other side it provides travelers easy access to renting private homes. With over 1,500,000 listings in 34,000 cities and 190 countries, its wide coverage enables travelers to rent private homes all over the world. Personal profiles as well as a rating and reviewing system provide information about the host and what is on offer. Vice versa, hosts can choose on their own who to rent out their space to.*
+
+Understending the relations between the two parts that benefit from the platform (owners and travelers) helped me to raise hypothesis like the relation between prices, availability and review scores, for example
+
+## Data Understanding
+The dataset available is composed by three files about homestays of AirBNB of Seattle, WA:
+
+- listings: including full descriptions and average review score
+- calendar: including listing id and the price and availability for that day
+- reviews: including unique id for each reviewer and detailed comments
+
+## Data Preparation
+After the different table of the dataset are identified, it was possible determine the actions needed to prepare the data for modeling. The preparation actions performed are as follows:
+- Replacing 't' and 'f' values on the available column of the calendar table
+- Dropping the "$" sign on the price column of the listings table
+- Changing the format of prices from '1,250.00' to '1250.00' and changing its type to float
+- Dropping missing values of the review_score_values column of the listings table
+- Drop some outliers prices and review_scores of the listings table
+The reason of each data preparation action will be explained in the answer of each question.
+
+## Modelling and Evaluation
+To answer the questions it was used the pandas library to group the data by each attribute of interest after cleaned and prepared. After, the resulting groupby was used to create visualizations that, after interpretation, helped me to draw conclusions. 
+In question 1, for example, after the graph of availability along the year was plotted, I consulted a Seattle travel guide to understand possible reasons for the sudden drops in availability.
+For question 4, I used the statsmodel package to draw a line through the data using the Ordinary Least Squares method to find the relationship between prices and review scores.
+Each groupby and the linear regression model performed was backed with graphs to help explaining my conclusions.
+
+## Deployment
+seattledataset.ipynb - jupyter notebook explaining the code used to achieve the result and visualizations showed in the post
+
    
  # Reference
    1. Tips and reference for the general structure of the post: https://medium.com/@AbdulazizKTA/write-a-data-science-blog-post-f8c5e1ece761
